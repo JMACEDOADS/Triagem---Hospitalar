@@ -1,0 +1,12 @@
+nome = input('Digite seu nome: ')
+idade = int(input('Digite sua idade: '))
+doenca_infectocontagiosa = input('Suspeita de doença infectocontagiosa? ') . upper()
+if idade>=65:
+  print('O paciente' + nome + ' possui atendimento prioritario!')
+elif doenca_infectocontagiosa=='SIM':
+  print('O paciente ' + nome + ' deve ser direcionado para sala 20 reservada para pacientes com suspeita de doenças infectocontagicas')
+
+else:
+  print('O paciente ' + nome + ' Não possui atendimento prioritario e pode aguardar na sala comum')
+
+print('FIM')
